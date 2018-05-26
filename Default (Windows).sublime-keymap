@@ -1,0 +1,6 @@
+[
+    {
+        "keys": ["ctrl+shift+c"], "command": "clip_and_open_cur_file",
+        // "context": [{"key": "omnimarkup_is_enabled", "operator": "equal", "operand": ""}]
+    }
+]
