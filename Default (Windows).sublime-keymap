@@ -1,6 +1,7 @@
 [
     {
         "keys": ["ctrl+shift+c"], "command": "clip_and_open_cur_file",
+        "keys": ["ctrl+shift+x"], "command": "open_git",
         // "context": [{"key": "omnimarkup_is_enabled", "operator": "equal", "operand": ""}]
     }
 ]
