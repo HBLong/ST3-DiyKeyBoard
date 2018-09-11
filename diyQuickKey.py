@@ -35,8 +35,7 @@ class OpenGitCommand(sublime_plugin.TextCommand):
                 if(f == '.git'):
                     # 打开git
                     chdir = 'cd "%s"' % path
-                    os.system(chdir+' && "%ProgramFiles%\\Git\\git-bash.exe"')
-                    print(chdir+' && "%ProgramFiles%\\Git\\git-bash.exe"')
+                    os.system(chdir+' && start "%ProgramFiles%\\Git\\git-bash.exe" && exit')
                     return
 
             # 切换到上一级
